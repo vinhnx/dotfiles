@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	ignorecase = true
+	precomposeunicode = true
+	sharedrepository = 0600
+	worktree = /Users/Vinh
+	excludesfile = .gitignore.d/zsh
+[receive]
+	denyNonFastforwards = true
+[vcsh]
+	vcsh = true
