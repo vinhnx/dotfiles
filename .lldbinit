@@ -1,0 +1,16 @@
+# https://github.com/DerekSelander/LLDB
+# command script import /Users/Vinh/lldb_custom_script/DerekSelander/LLDB/lldb_commands/dslldb.py
+
+# command script import /usr/local/Cellar/chisel/1.5.0/libexec/fblldb.py
+
+# Fix Console po frame Printing
+# http://nshipster.com/new-years-2016/
+# echo display @import UIKit >> ~/.lldbinit
+# echo target stop-hook add -o \"target stop-hook disable\" >> ~/.lldbinit
+
+# command regex po
+# s/(0x[[:xdigit:]]+)/expression -l objc -O -- %1/
+# s/(.+)/expression -O -- %1/
+
+# https://github.com/kastiglione/swift_po
+# command script import /Users/Vinh/tools/swift_po/spo.py
