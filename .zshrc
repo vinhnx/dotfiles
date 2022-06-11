@@ -29,7 +29,6 @@ DEFAULT_USER="Vinh"
 ZSH_THEME="" # for empty pure prompt
 
 # If you added the previous alias, use a text editor to update the line to the following 
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias python=/usr/local/bin/python3
 alias man="tldr"
 alias m="mmm" # https://github.com/dduan/mmm
@@ -207,8 +206,6 @@ export PATH="/usr/local/bin:$PATH"
 #     xed .
 # }
 
-# Homebrew CLI API token
-export HOMEBREW_GITHUB_API_TOKEN=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
 # export PATH="$PATH:/Users/Vinh/infer-osx-v0.1.1/infer/infer/bin"  
 
 # https://github.com/pindexis/qfc Quick Command-line File Completion
@@ -257,7 +254,6 @@ cdf() {
 # https://github.com/nvbn/thefuck
 # eval $(thefuck --alias fix)
 alias pip="/usr/local/bin/pip3"
-alias config='/usr/bin/git --git-dir=/Users/Vinh/.cfg/ --work-tree=/Users/Vinh'
 
 # nvm
 # export NVM_DIR="$HOME/.nvm"
@@ -288,3 +284,4 @@ source /Users/Vinh/.config/broot/launcher/bash/br
 
 # flutter
 export PATH="$PATH:$HOME/Developer/flutter/bin"
+alias config='/usr/bin/git --git-dir=/Users/Vinh/.cfg/ --work-tree=/Users/Vinh'
