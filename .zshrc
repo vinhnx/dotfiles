@@ -284,4 +284,6 @@ source /Users/Vinh/.config/broot/launcher/bash/br
 
 # flutter
 export PATH="$PATH:$HOME/Developer/flutter/bin"
+
+# dotfiles management: git bare https://www.atlassian.com/git/tutorials/dotfiles
 alias config='/usr/bin/git --git-dir=/Users/Vinh/.cfg/ --work-tree=/Users/Vinh'
