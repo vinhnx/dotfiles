@@ -4,6 +4,13 @@ My dotfiles.
 
 ---
 
+# Mics
+
++ VSCode setup: https://github.com/vinhnx/vinhnx_vscode
++ antfu's: https://github.com/antfu/dotfiles
+
+---
+
 ### Install your dotfiles onto a new system (or migrate to this setup)
 
 If you already store your configuration/dotfiles in a Git repository, on a new system you can migrate to this setup with the following steps:
